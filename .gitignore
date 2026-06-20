@@ -3,3 +3,23 @@ public/dist/
 .env
 .env.local
 *.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Large binary files
+de421.bsp
+chart_data.json
+
+# Claude internal
+.claude/
+
+# Legacy/unused files
+app.js
+index.js
+index.html
+create_resume.py
+chart_engine.py
+vedic.py
+query-goals.js
