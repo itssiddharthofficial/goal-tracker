@@ -19,7 +19,6 @@ chart_data.json
 # Legacy/unused files
 app.js
 index.js
-index.html
 create_resume.py
 chart_engine.py
 vedic.py
