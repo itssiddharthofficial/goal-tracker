@@ -1,0 +1,85 @@
+{
+  "goals": [
+    {
+      "id": 1,
+      "title": "Master React & Tailwind",
+      "category": "Learning",
+      "priority": "high",
+      "status": "done",
+      "is_active": true,
+      "created_at": "2026-06-06T11:27:26.025Z",
+      "updated_at": "2026-06-06T11:47:22.350Z"
+    },
+    {
+      "id": 2,
+      "title": "Build SaaS dashboard",
+      "category": "Work",
+      "priority": "high",
+      "status": "done",
+      "is_active": false,
+      "created_at": "2026-06-06T11:27:26.120Z",
+      "updated_at": "2026-06-06T11:32:00.292Z"
+    },
+    {
+      "id": 3,
+      "title": "Implement animations",
+      "category": "Design",
+      "priority": "medium",
+      "status": "done",
+      "is_active": false,
+      "created_at": "2026-06-06T11:27:26.219Z",
+      "updated_at": "2026-06-06T11:32:00.423Z"
+    },
+    {
+      "id": 4,
+      "title": "Code review setup",
+      "category": "Work",
+      "priority": "low",
+      "status": "done",
+      "is_active": false,
+      "created_at": "2026-06-06T11:27:26.311Z",
+      "updated_at": "2026-06-06T11:46:42.196Z"
+    },
+    {
+      "id": 5,
+      "title": "Master React & Modern Web Development",
+      "category": "Learning",
+      "priority": "high",
+      "status": "done",
+      "is_active": false,
+      "created_at": "2026-06-06T11:31:59.505Z",
+      "updated_at": "2026-06-06T11:47:27.152Z"
+    },
+    {
+      "id": 6,
+      "title": "Build Stunning Tailwind Interfaces",
+      "category": "Design",
+      "priority": "high",
+      "status": "done",
+      "is_active": false,
+      "created_at": "2026-06-06T11:31:59.665Z",
+      "updated_at": "2026-06-06T11:45:54.645Z"
+    },
+    {
+      "id": 7,
+      "title": "Implement Advanced Animations",
+      "category": "Development",
+      "priority": "medium",
+      "status": "done",
+      "is_active": false,
+      "created_at": "2026-06-06T11:31:59.801Z",
+      "updated_at": "2026-06-06T11:46:14.993Z"
+    },
+    {
+      "id": 8,
+      "title": "Setup CI/CD Pipeline",
+      "category": "DevOps",
+      "priority": "medium",
+      "status": "done",
+      "is_active": false,
+      "created_at": "2026-06-06T11:31:59.929Z",
+      "updated_at": "2026-06-06T11:47:31.605Z"
+    }
+  ],
+  "nextId": 10
+}

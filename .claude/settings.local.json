@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip install pyswisseph --quiet)",
+      "Bash(python -c \"import swisseph as swe; print\\('swisseph', swe.version\\)\")",
+      "Bash(python -m pip install --only-binary :all: pyswisseph)",
+      "Bash(python -c \"import skyfield; print\\('skyfield OK', skyfield.__version__\\)\")",
+      "Bash(python -c \"import numpy; print\\('numpy', numpy.__version__\\)\")"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goal Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎯 Goal Tracker</h1>
+      <p class="subtitle">Stay focused on what matters</p>
+    </header>
+
+    <div class="main-content">
+      <!-- Stats Section -->
+      <section class="stats-section">
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-number" id="statTotal">0</div>
+            <div class="stat-label">Total Goals</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number stat-active" id="statInProgress">0</div>
+            <div class="stat-label">In Progress</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number stat-done" id="statDone">0</div>
+            <div class="stat-label">Completed</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number stat-paused" id="statPaused">0</div>
+            <div class="stat-label">Paused</div>
+          </div>
+        </div>
+        <div class="progress-section">
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <div class="progress-text">
+            <span id="progressPercent">0%</span> Complete
+          </div>
+        </div>
+      </section>
+
+      <!-- Current Goal Section -->
+      <section class="current-goal-section">
+        <h2>Currently Working On</h2>
+        <div id="currentGoal" class="current-goal">
+          <p class="no-goal">Nothing active right now</p>
+        </div>
+      </section>
+
+      <!-- Add Goal Form -->
+      <section class="add-goal-section">
+        <h2>Add New Goal</h2>
+        <form id="goalForm" class="goal-form">
+          <div class="form-group">
+            <input
+              type="text"
+              id="goalTitle"
+              placeholder="Goal title (e.g., Learn TypeScript)"
+              required
+            >
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="goalCategory"
+              placeholder="Category (e.g., Learning, Work, Health)"
+              required
+            >
+          </div>
+          <div class="form-group">
+            <select id="goalPriority" required>
+              <option value="">Select Priority</option>
+              <option value="high">High Priority 🔴</option>
+              <option value="medium">Medium Priority 🟡</option>
+              <option value="low">Low Priority 🟢</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Add Goal</button>
+        </form>
+      </section>
+
+      <!-- Goals List -->
+      <section class="goals-section">
+        <h2>My Goals</h2>
+        <div id="goalsList" class="goals-list">
+          <p class="empty-state">No goals yet. Add one to get started!</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>Goals are saved automatically • Keep making progress! 💪</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
